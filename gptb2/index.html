@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Giai phuong trinh bac hai</title>
+  </head>
+  <body>
+    <center>
+      <h2><b>Giải phương trình bậc hai: Ax<sup>2</sup> + Bx + C = 0</b></h2>
+      <form class="" action="index.html" method="post">
+        <p><b>A =</b><input id="input1" type="text" name="gia tri cua A" placeholder="Nhap a"></p>
+        <p><b>B =</b><input id="input2" type="text" name="gia tri cua B" placeholder="Nhap b"></p>
+        <p><b>C =</b><input id="input3" type="text" name="gia tri cua C" placeholder="Nhap c"></p>
+      </form>
+      <button type="button" name="Giải" onclick="myFunction()">Giải phương trình</button>
+      <hr>
+      <h2><b>Giải</b></h2>
+      <span id="output1"></span>
+      <p id="outputtext"></p>
+      <span id="output2"></span><br>
+      <span id="output3"></span>
+      <script>
+        function myFunction() {
+          var a = document.getElementById("input1").value;
+          var b = document.getElementById("input2").value;
+          var c = document.getElementById("input3").value;
+          if (a == 0 && b == 0 && c == 0){
+              document.getElementById("outputtext").innerHTML = 'Phương trình đúng với mọi x thuộc R';
+          }else if (a == 0 && b == 0){
+              document.getElementById("outputtext").innerHTML = 'Phương trình vo nghiem';
+          }else if (a == 0){
+              document.getElementById("outputtext").innerHTML = 'Phương trình tro ve pt bac nhat x=';
+              document.getElementById("output2").innerHTML = (-b)/c;
+          }else{
+              delta = b * b - 4 * a * c;
+              document.getElementById("output1").innerHTML = delta;
+              if (delta < 0) {
+                  document.getElementById("outputtext").innerHTML = 'Phương trình vo nghiem';
+              }else if (delta > 0) {
+                  document.getElementById("outputtext").innerHTML = 'Phương trình co 2 nghiem phan biet x1, x2 lan luot la:';
+                  document.getElementById("output2").innerHTML = (-b-Math.sqrt(delta))/(2*a);
+                  document.getElementById("output3").innerHTML = (-b+Math.sqrt(delta))/(2*a);
+              }else{
+                  document.getElementById("outputtext").innerHTML = 'Phương trình co nghiem kep x1 = x2 = ';
+                  document.getElementById("output2").innerHTML = (-b)/(2*a);
+              }
+          }
+        };
+      </script>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.h-40px {
+  height: 40px;
+}
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+body {
+    background-color: #665d5d;
+    margin-top: 80px;
+}
+label {
+  text-align: right;
+}

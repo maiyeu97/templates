@@ -1,0 +1,73 @@
+.bg-1 {
+  background-color: rgb(237, 237, 237);
+  padding-left:100px;
+  padding-right:100px;
+}
+.bg-6 {
+  background-color: rgb(200, 194, 194);
+  padding-left:100px;
+  padding-right:100px;
+}
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.star-rating .fa-star{color: gold;}
+.fix-alignment {
+  padding-top: 30px;
+}
+.fix-img-radius {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px
+}
+.fix-font {
+  font-family: 'Indie Flower', cursive;
+}
+.border-page {
+  border-style: outset;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  border-color: black;
+
+}
+.fix-p {
+  margin: auto;
+  margin-left: 1300px;
+  padding-top: 10px;
+}
+.fix-padding {
+  background-color: #ece0ce;
+}
+.fix-h {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  /* padding-right: 30px; */
+}
+.form-name {
+  height: 60px;
+  background-color: rgba(222, 233, 233, 0.96);
+}
+.form-email {
+  height: 60px;
+  background-color: rgba(222, 233, 233, 0.96);
+}
+.form-messenger {
+  height: 60px;
+  background-color: rgba(222, 233, 233, 0.96);
+  font-size: 1rem;
+  height: 100px;
+}
+.form-number {
+  height: 60px;
+  background-color: rgba(222, 233, 233, 0.96);
+}

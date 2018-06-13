@@ -1,0 +1,30 @@
+body {
+  background-image: url(../image/backgroud-page1.jpg);
+  background-size: cover;
+}
+.main {
+  background-color: #fff;
+  font-family: 'Gugi', cursive;
+}
+.padding-content {
+  padding-top: 50px;
+  padding-bottom:  50px; 
+}
+.fix-button {
+  border: 3px outset #5cb85c;
+  border-radius: 3px;
+  font-size: 12px ;
+  margin-top: 1em;
+  padding: .8em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: Transparent;
+}
+img {
+  border-radius: 50%;
+  width: 75%;
+  height: auto;
+}
+.bg-img1 {
+  background-image: url(../image/1.jpg);
+}

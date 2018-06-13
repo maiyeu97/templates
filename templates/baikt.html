@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      baikt1
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/baikt1.css">
+  </head>
+  <body>
+      <div  class="container" >
+        <form class="form-horizontal" role="form">
+          <h2 class="text-success">Registration Form</h2>
+            <div class="form-group row">
+              <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+              <div class="col-sm-9">
+                  <input type="text" id="firstName" placeholder="Full Name" class="form-control" autofocus>
+                  <span class="help-block text-muted">Last Name, First Name, eg.: Smith, Harry</span>
+              </div>
+            </div>
+            <br>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputDate3" class="col-sm-3 control-label">Date of Birth</label>
+            <div class="col-sm-9">
+              <input type="date" class="form-control" id="inputDate3">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputCountry3" class="col-sm-3 control-label">Country</label>
+            <div class="col-sm-9">
+              <select class="col-sm-12 h-40px form-control" name="">
+                <option value="">Afghanistan</option>
+                <option value="">Vietnamese</option>
+                <option value="">Campuchia</option>
+                <option value="">Germany</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-sm-3">Gender</label>
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="femaleRadio" value="Female">  Female
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="maleRadio" value="Male">  Male
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="uncknownRadio" value="Unknown">  Unknown
+                        </label>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+              <label class="control-label col-sm-3">Meal Preference</label>
+              <div class="col-sm-9">
+                  <div class="checkbox">
+                      <label>
+                          <input type="checkbox" id="calorieCheckbox" value="Low calorie">  Low calorie
+                      </label>
+                  </div>
+                  <div class="checkbox">
+                      <label>
+                          <input type="checkbox" id="saltCheckbox" value="Low salt">  Low salt
+                      </label>
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-group row">
+            <label class=" col-sm-3"></label>
+            <div class="col-sm-offset-2 col-sm-9">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">  I accept <a href="#">terms</a><br>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-9">
+              <div class="col-sm-offset-3">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+  </body>
+</html>
